@@ -22,6 +22,9 @@ html, body {
 header {
     width: 100%;
     padding: 20px;
+    background-color: rgb(255, 72, 72);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 nav, .navbar {
@@ -35,6 +38,7 @@ li.navbar__type, li.navbar__evolution {
     margin: 0 2px;
     border-radius: 4px;
     color: rgb(99, 99, 99);
+    background-color: white;
     font-weight: 600;
     cursor: pointer;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
@@ -98,6 +102,10 @@ li.navbar__evolution:hover {
     .container {
         box-shadow: none;
         height: 100vh;
+    }
+
+    header {
+        border-radius: 0;
     }
 
     nav {

@@ -1,2 +1,11 @@
 # side_project
  Simple Pokemon Book
+
+HTML, CSS, JS 를 이용해서
+간단한 포켓몬 도감 만들기
+
+
+기능
+1. 포켓몬 리스트
+2. 타입별 분류
+3. 진화별 
